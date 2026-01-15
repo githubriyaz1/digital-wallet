@@ -1,0 +1,136 @@
+.page-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  transition: all 0.25s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.page-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 14px;
+  transition: background 0.2s ease;
+  cursor: pointer;
+}
+
+.table-row:hover {
+  background: #f1f5f9;
+}
+
+input,
+button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.page-card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  transition: all 0.25s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.page-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 35px rgba(0,0,0,0.15);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.table-head,
+.table-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 14px;
+}
+
+.table-head {
+  font-weight: bold;
+  background: #f8fafc;
+  border-radius: 10px;
+}
+
+.table-row {
+  transition: background 0.2s ease;
+  cursor: pointer;
+}
+
+.table-row:hover {
+  background: #eef2ff;
+}
+
+.pos {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.neg {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+
+.card-ui {
+  width: 320px;
+  height: 190px;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  border-radius: 18px;
+  padding: 20px;
+  transition: transform 0.4s ease;
+}
+
+.card-ui:hover {
+  transform: rotateY(10deg) translateY(-6px);
+}
+
+.card-chip {
+  width: 40px;
+  height: 30px;
+  background: gold;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+
+.danger-zone {
+  border: 1px solid #fee2e2;
+}
+
+.danger-btn {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.2s ease;
+}
+
+.danger-btn:hover {
+  background: #b91c1c;
+  transform: translateY(-2px);
+}
